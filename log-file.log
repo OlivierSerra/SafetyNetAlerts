@@ -1,0 +1,12 @@
+2023-12-14T11:58:50.563+01:00 DEBUG 11164 --- [SafetyNetAlerts] [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@2a7b6f69
+2023-12-14T11:58:54.380+01:00 DEBUG 11164 --- [SafetyNetAlerts] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 9 mappings in 'requestMappingHandlerMapping'
+2023-12-14T11:58:54.629+01:00 DEBUG 11164 --- [SafetyNetAlerts] [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-12-14T11:58:54.746+01:00 DEBUG 11164 --- [SafetyNetAlerts] [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-12-14T11:58:54.798+01:00 DEBUG 11164 --- [SafetyNetAlerts] [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-12-14T11:58:55.118+01:00 DEBUG 11164 --- [SafetyNetAlerts] [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@2a7b6f69, started on Thu Dec 14 11:58:50 CET 2023
+2023-12-14T11:59:26.375+01:00 DEBUG 16424 --- [SafetyNetAlerts] [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@2a7b6f69
+2023-12-14T11:59:29.512+01:00 DEBUG 16424 --- [SafetyNetAlerts] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 9 mappings in 'requestMappingHandlerMapping'
+2023-12-14T11:59:29.762+01:00 DEBUG 16424 --- [SafetyNetAlerts] [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-12-14T11:59:29.839+01:00 DEBUG 16424 --- [SafetyNetAlerts] [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-12-14T11:59:29.886+01:00 DEBUG 16424 --- [SafetyNetAlerts] [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-12-14T11:59:30.204+01:00 DEBUG 16424 --- [SafetyNetAlerts] [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@2a7b6f69, started on Thu Dec 14 11:59:26 CET 2023
