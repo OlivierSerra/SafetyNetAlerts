@@ -135,7 +135,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-site-plugin</artifactId>
-				<version>3.7.1</version>
+				<version>4.0.0-M13</version>
 			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -147,7 +147,19 @@
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>3.0.0-M5</version>
 				<configuration>
-					<!-- Configurations spécifiques au plugin Surefire, si nécessaire -->
+					<includes>
+						<include>**\controller\FirestationControllerTest.java</include>
+						<include>**\controller\MedicalRecordControllerTest.java</include>
+						<include>**\controller\PersonControllerTest.java</include>
+						<include>**\controller\SafetyNetControllerTest.java</include>
+						<include>**\Service\FirestationServiceTest.java</include>
+						<include>**\Service\MedicalRecordServiceTest.java</include>
+						<include>**\Service\PersonServiceTest.java</include>
+						<include>**\repository\FirestationRepositoryTest.java</include>
+						<include>**\repository\MedicalRecordRepositoryTest.java</include>
+						<include>**\repository\PersonRepositoryTest.java</include>
+						<!-- Incluez les motifs de noms de classes de tests que vous souhaitez exécuter -->
+					</includes>
 				</configuration>
 			</plugin>
 		</plugins>

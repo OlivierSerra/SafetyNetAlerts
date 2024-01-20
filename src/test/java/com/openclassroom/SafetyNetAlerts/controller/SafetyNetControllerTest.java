@@ -1,8 +1,8 @@
 package com.openclassroom.SafetyNetAlerts.controller;
 
 import static org.junit.jupiter.api.Assertions.*;
-import static org.mockito.ArgumentMatchers.any;
-import static org.mockito.ArgumentMatchers.anyList;
+//import static org.mockito.ArgumentMatchers.any;
+//import static org.mockito.ArgumentMatchers.anyList;
 import static org.mockito.ArgumentMatchers.eq;
 import static org.mockito.Mockito.*;
 import java.time.LocalDate;
@@ -12,7 +12,7 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 
-import org.hamcrest.Matchers;
+//import org.hamcrest.Matchers;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.junit.jupiter.MockitoExtension;
@@ -21,7 +21,7 @@ import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import com.openclassroom.SafetyNetAlerts.model.Firestation;
+//import com.openclassroom.SafetyNetAlerts.model.Firestation;
 import com.openclassroom.SafetyNetAlerts.model.Household;
 import com.openclassroom.SafetyNetAlerts.model.MedicalRecord;
 import com.openclassroom.SafetyNetAlerts.model.Person;
@@ -31,13 +31,13 @@ import com.openclassroom.SafetyNetAlerts.services.PersonService;
 import com.openclassroom.SafetyNetAlerts.utility.IdentifyKids;
 import com.openclassroom.SafetyNetAlerts.utility.KidsLivingInThisHouse;
 import com.openclassroom.SafetyNetAlerts.utility.MedicalRecordData;
-import com.openclassroom.SafetyNetAlerts.utility.PersonAge;
+//import com.openclassroom.SafetyNetAlerts.utility.PersonAge;
 import com.openclassroom.SafetyNetAlerts.utility.PersonAndFirestationLink;
 import com.openclassroom.SafetyNetAlerts.utility.PersonPhone;
 
 import lombok.Data;
 
-import static org.mockito.ArgumentMatchers.*;
+
 
 @Data
 @WebMvcTest(SafetyNetController.class)
